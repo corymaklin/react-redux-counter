@@ -22,7 +22,7 @@ class Counter extends Component {
         const { count } = this.props;
         return (
             <div>
-            {count}
+            <h1>{count}</h1>
             <button id='INC' onClick={this.handleClick}>INC</button>
             <button id='DEC' onClick={this.handleClick}>DEC</button>
             </div>
